@@ -5,7 +5,7 @@ const productCreateSchema = Joi.object({
     "string.base": "Product name must be a string",
     "string.empty": "Product name is required",
     "string.min": "Product name must be at least 3 characters long",
-    "string.max": "Product name must be less than 100 characters long",
+    "string.max": "Product   name must be less than 100 characters long",
   }),
 
   category: Joi.string()
